@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Death Knight",
+        "image": "http://angrathar.com/img/icon-deathknight.png"
+    },
+
+    {
+        "id": 2,
+        "name": "Demon Hunter",
+        "image": "https://vignette.wikia.nocookie.net/wowwiki/images/d/db/Demon_hunter_crest-250x271.png/revision/latest?cb=20151004044357"
+    },
+
+    {
+        "id": 3,
+        "name": "Druid",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Druid-Guide-150x150.png"
+    },
+
+    {
+        "id": 4,
+        "name": "Hunter",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Hunter-Guide-150x150.png"
+    },
+
+    {
+        "id": 5,
+        "name": "Mage",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2017/07/mage_13-150x150.png"
+    },
+
+    {
+        "id": 6,
+        "name": "Monk",
+        "image": "https://vignette.wikia.nocookie.net/wowwiki/images/6/60/Monk_crest.png/revision/latest?cb=20130817144820"
+    },
+
+    {
+        "id": 7,
+        "name": "Paladin",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Paladin-Guide-150x150.png"
+    },
+
+    {
+        "id": 8,
+        "name": "Priest",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Priest-Guide-150x150.png"
+    },
+
+    {
+        "id": 9,
+        "name": "Rogue",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Rogue-Guide-150x150.png"
+    },
+
+    {
+        "id": 10,
+        "name": "Shaman",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Shaman-Guide-150x150.png"
+    },
+
+    {
+        "id": 11,
+        "name": "Warlock",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Warlock-Guide-150x150.png"
+    },
+
+    {
+        "id": 12,
+        "name": "Warrior",
+        "image": "https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Warrior-Guide-150x150.png"
+    }
+]

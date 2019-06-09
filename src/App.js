@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import ProfessionCard from "./components/ProfessionCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import professions from "./professions.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  // Setting this.state.friends to the friends json array
+  state = {
+    professions
+  };
+
+  // Map over this.state.friends and render a FriendCard component for each friend object
+  render() {
+    return (
+      <Wrapper>
+        <Title>Wow Class List</Title>
+        {this.state.professions.map(profession => (
+          <ProfessionCard
+            id={profession.id}
+            name={profession.name}
+            image={profession.image}
+          />
+        ))}
+      </Wrapper>
+    );
+  }
 }
 
 export default App;
