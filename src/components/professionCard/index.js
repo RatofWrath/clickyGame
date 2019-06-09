@@ -12,6 +12,7 @@ function ProfessionCard(props) {
           <li>
             <strong>Name:</strong> {props.name}
           </li>
+          
         </ul>
       </div>
     </div>

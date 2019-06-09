@@ -10,16 +10,17 @@ class App extends Component {
     professions
   };
 
+
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
-        <Title>Wow Class List</Title>
+        <Title>WoW Memory Game</Title>
         {this.state.professions.map(profession => (
           <ProfessionCard
             id={profession.id}
-            name={profession.name}
             image={profession.image}
+            name={profession.name}
           />
         ))}
       </Wrapper>
