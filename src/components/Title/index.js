@@ -6,6 +6,7 @@ function Title(props) {
   <h1 className="title">{props.children}</h1>
   <h3 className="title">Score: {props.score}</h3>
   <h3 className="title">High score: {props.topScore}</h3>
+  <h3 className="title">{props.display} </h3>
   </div>
 }
 

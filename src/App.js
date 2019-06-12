@@ -10,12 +10,13 @@ class App extends Component {
     professions,
     score: 0,
     topScore: 0,
-    clickedProfessions: []
+    clickedProfessions: [],
+    display: ""
   };
 
   clickHandler = (id) => {
     this.shuffleProfessions();
-    this.givePoints();
+    this.givePoints(id);
   }
 
   shuffleProfessions = (array) => {
@@ -32,14 +33,32 @@ class App extends Component {
   }
 
   givePoints = (id) => {
+    let clickedProfessions = this.state.clickedProfessions;
+    console.log(clickedProfessions.indexOf(id));
+    
+    if(clickedProfessions.indexOf(id) === -1){
+      this.setState({
+        clickedProfessions: clickedProfessions.concat(id),
+        score: this.state.score + 1,
+        topScore: this.state.score + 1 > this.state.topScore ? this.state.score + 1 : this.state.topScore,
+        display: ""
+      })
+    }
 
+    else {
+      this.setState({
+        clickedProfessions: [],
+        score: 0,
+        display: "Game Over!"
+      })
+    }
   }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
-        <Title score={this.state.score} topScore={this.state.topScore}>WoW Memory Game</Title>
+        <Title score={this.state.score} topScore={this.state.topScore} display={this.state.display}>WoW Memory Game</Title>
         {this.state.professions.map(profession => (
           <ProfessionCard
             id={profession.id}
