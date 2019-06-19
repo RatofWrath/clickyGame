@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+﻿This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### 1. Description
+This is project is a memory game using an icons from each of World of Warcraft's classes.  To win the end-user must click on all twelve icons without clicking on any of them a second time.  
+Each time an icon is clicked, each of the icons shuffle.
+
+
+### 2. Technologies Used
+For this project I used HTML, CSS, Javascript and React
+
+### 3. GithubPages Link
+Here is a link to the project: https://ratofwrath.github.io/clickyGame/
